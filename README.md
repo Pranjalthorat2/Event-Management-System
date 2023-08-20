@@ -1,1 +1,1 @@
-# Event-Management-System
+"EventHub: Streamlining Event Management with Flask"
