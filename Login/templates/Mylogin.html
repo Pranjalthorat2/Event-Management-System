@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Login Page </title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('lg.static', filename='login.css') }}">
+</head>
+<body>
+    <center> <h1 class="code-heading">Login Here</h1> </center>
+    <form action = "/Verify" method="post">
+        <div class="container">
+            <label>Username : </label>
+            <input type="text" placeholder="Enter Username" name="username" required>
+            <label>Password : </label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <button type="submit">Login</button>
+            <button onclick="location.href = '/signup'">Signup</button>
+        </div>
+    </form>
+</body>
+</html>

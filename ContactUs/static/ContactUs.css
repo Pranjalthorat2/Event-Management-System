@@ -1,0 +1,110 @@
+body{
+   background-color: bisque;
+   font-family: Bree serif;
+}
+
+.outer-div{
+    display: flex;
+    padding: 0% 15%;
+}
+
+h1
+{
+  text-align: center;
+}
+
+.contact{
+  height:400px;
+  width: 170px;
+  padding-top: 5%;
+  margin-right: 20%;
+}
+
+.contact p{
+  margin-top: 10%;
+  line-height: 1.5;
+  font-family: bree serif;
+}
+
+.contact h2{
+  font-family: bree serif;
+}
+
+.contact h3{
+  margin-top: 20px;
+  font-family: bree serif;
+}
+
+.contact p i{
+  margin-right:10px;
+}
+
+.follow{
+  margin-top: 20px;
+}
+
+.follow i {
+    padding: 5px;
+    font-size: 30px;
+}
+
+.follow i:hover{
+  transform: scale(1.5);
+}
+
+.note{
+  width:600px;
+  height: 300px;
+  margin-top: 5%;
+}
+
+.note h2{
+  font-family: bree serif;
+}
+
+.note input[type = "text"] , input[type = "email"]
+{
+  font-family: bree serif;
+  border: none;
+  border-bottom: 1px solid  #282A3A;
+  background: #b9bcc7;
+  height: 40px;
+  padding-left: 5px;
+  color: #282A3A;
+  font-size: 16px;
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+}
+
+textarea{
+  width: 100%;
+  height: 50%;
+  margin-top: 10px;
+  color: #282A3A;
+  background: #b9bcc7;
+  font-family: bree Serif;
+  font-size: 16px;
+  padding-left: 5px;
+  border-bottom: 1px solid  #282A3A;
+}
+
+.msg{
+    font-size: 17px;
+    font-family: bree serif;
+    background-color: #EB455F;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+    transition: .3s ease;
+}
+
+.msg:hover{
+    background: transparent;
+    border: 2px solid #EB455F;
+    color: black;
+    cursor:pointer;
+}
+

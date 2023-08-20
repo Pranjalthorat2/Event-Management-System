@@ -1,0 +1,102 @@
+body {
+    background-color: bisque;
+    margin: 8px;
+}
+
+.cardHeading1{
+    font-family: Bree serif;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 13em;
+
+}
+
+.row{
+    padding-bottom: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.Ecard{
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px #7D7463;
+}
+
+.dot{
+    height: 20px;
+    width: 20px;
+}
+
+.cardImages{
+    height: 25px;
+    width: 25px;
+}
+
+.cardHeading2{
+    font-size: 19px;
+}
+
+.myBtn1{
+          background-image: linear-gradient(#0dccea, #0d70ea);
+          border: 0;
+          border-radius: 4px;
+          box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+          color: #fff;
+          cursor: pointer;
+          font-size: 15px;
+          margin: 3px;
+          padding: 10px 15px;
+          text-align: center;
+          user-select: none;
+}
+
+.myBtn1:hover{
+        transform: scale(1.2)
+}
+
+.myBtn2{
+          background-image: linear-gradient(#e9887b, #e42208);
+          border: 0;
+          border-radius: 4px;
+          box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+          color: #fff;
+          cursor: pointer;
+          font-size: 15px;
+          margin: 3px;
+          padding: 10px 15px;
+          text-align: center;
+          user-select: none;
+}
+
+.myBtn2:hover{
+        transform: scale(1.2)
+}
+
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  margin: 20px auto;
+
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}

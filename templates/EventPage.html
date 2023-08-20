@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Teko&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <link rel = "stylesheet" href = "static/style.css">
+    <link rel = "stylesheet" href = "static/Navbar.css">
+
+</head>
+<body>
+
+    <div class="nbar">
+        <a href="/homepage">Home</a>
+        <a href="/readCards">Events</a>
+        <a href="/aboutus">About us</a>
+        <a href="/contact">Contact us</a>
+        <a href="/login">Login</a>
+        <a href="/logout">Logout</a>
+    </div>
+
+        <div id = "outer" class = "outer_container">
+            <div class="row">
+
+                {% for i in range(items|length) %}
+                <div class="col-sm-3 mb-3 mb-sm-0">
+                    <div class="card Ecard" style="width: 18rem;">
+                        <img src = {{image[items[i][1]]}} class="card-img-top" alt="...">
+                        <div class="card-body">
+
+                        <h5 class="card-title cardHeading1">
+                            <img class = "dot" src = "static/Dot.png">
+                            {{items[i][1]}}
+                        </h5>
+
+                        <h6 class = "cardHeading2">
+                            <img class = "cardImages"  src = "static/Location.png">
+                            Location: {{items[i][2]}}
+                        </h6>
+
+                        <h6 class = "cardHeading2">
+                            <img class = "cardImages"  src = "static/Day.png">
+                            Date: {{items[i][3]}}
+                        </h6>
+
+                        <h6 class = "cardHeading2">
+                            <img class = "cardImages"  src = "static/Time.png">
+                            Time: {{items[i][4]}}
+                        </h6>
+
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button class="btn btn-primary myBtn1" onclick="location.href = '/updatecards/{{items[i][0]}}'">Update Event</button>
+                        <button class="btn btn-danger myBtn2" onclick="location.href = '/deleteEvent/{{items[i][0]}}'">Delete Event</button>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+
+                <div>
+                    <button class="button-74" onclick="location.href = '/mycards'">Create Event</button>
+                </div>
+
+            </div>
+            <p style = "font-family: Bree serif; text-align: center; margin-top: 5px">© By Team Dynamo</p>
+        </div>
+
+
+</body>
+</html>

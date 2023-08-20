@@ -1,0 +1,47 @@
+body {
+    font-family: Comic Sans MS;
+    margin: 0;
+    padding: 0;
+    background-color: #FAF0D7;
+    }
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #f5a2ee;
+  border-radius: 5px;
+}
+
+button {
+    background: #E48586;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2980b9;
+}

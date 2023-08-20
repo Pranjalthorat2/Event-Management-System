@@ -1,0 +1,72 @@
+body{
+   background-color: #FAF0D7;
+}
+
+.carousel-item{
+    text-align: center;
+    padding-top: 10%;
+    border-radius: 10px;
+    font-family: Oswald;
+}
+
+.page1
+{
+    background-image: url("https://img.freepik.com/free-vector/party-crowd-silhouettes-dancing-nightclub_1048-11557.jpg?w=900&t=st=1690905781~exp=1690906381~hmac=7c74d0a0009bdf2cc390768758b155fc96d92436319815977d11e162b1193d00");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+.page2{
+    background-image: url("https://wp-media-partyslate.imgix.net/2022/11/photo-05dcc91f-b173-4ed4-a997-ed29f17d20be-scaled.jpeg?auto=compress%2Cformat&fit=scale&h=840&ixlib=php-3.3.1&w=1260&wpsize=huge");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+.page3{
+    background-image: url('https://wallpapercave.com/dwp1x/wp2848043.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+
+.heading1{
+    color: black;
+    font-size: 50px;
+}
+
+.heading2{
+    color: white;
+    background-color: #61677A;
+    font-size: 60px;
+    width: 30%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 5px 20px black;
+}
+
+.heading3{
+    color: white;
+    font-size: 70px;
+}
+
+.h1-span{
+    color: brown;
+    font-size: 70px;
+}
+
+.h2-span{
+    color:aqua;
+    font-size: 70px;
+}
+
+.h3-span{
+    color: aqua;
+    border-radius: 20px;
+    font-size: 80px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Error Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FFCDA8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .error-container {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #ff0000;
+        }
+
+        p {
+            color: #333;
+            margin-top: 10px;
+        }
+
+        button {
+            background-color: #e48586;
+            width: 50%;
+            color: #ffffff;
+            padding: 15px;
+            margin: 10px 0px;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <h1>Duplicate User Entry</h1>
+        <p>Please enter Another username.</p>
+        <button onclick="location.href = '/signup'">Go Back</button>
+    </div>
+</body>
+</html>

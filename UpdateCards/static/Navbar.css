@@ -1,0 +1,30 @@
+.nbar {
+    background-color: #faf0d7;
+    overflow: hidden;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 8px;
+    font-family: Bree serif;
+}
+
+.nbar a {
+    float: left;
+    font-size: 20px;
+    display: block;
+    color: #272829;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nbar a:hover {
+    background-color: #E48586;
+    color: #272829;
+}
+
+.heading{
+    text-align: center;
+    font-family: Bree serif;
+    margin-bottom: 20px;
+}
+

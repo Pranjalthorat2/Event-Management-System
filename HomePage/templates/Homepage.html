@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Pattaya&family=Oswald&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('hp.static', filename='HomeStyle.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('hp.static', filename='Navbar.css') }}">
+
+</head>
+<body>
+    <div class="nbar">
+        <a href="/homepage">Home</a>
+        <a href="/readCards">Events</a>
+        <a href="/aboutus">About us</a>
+        <a href="/contact">Contact us</a>
+        <a href="/login">Login</a>
+        <a href="/logout">Logout</a>
+        <a class = "user" style = "color: #B31312; float: right"><img src = "static/user.png">{{Eusername}}</a>
+    </div>
+
+    <div class = "main-div">
+        <h1 class = "heading">
+            Welcome to our <br>Event Management Platform
+        </h1>
+
+        <p class = "para1">Plan and organize your events with ease. <br>Discover and attend exciting events in your area.</p>
+        <p class = "para2">Crafting Unforgettable Experiences and <br>Bringing Your Imagination to Life - Your Trusted Event Management Partner <br>for Flawless Celebrations, Dynamic Conferences, and <br>Transformative Workshops</p>
+    </div>
+</body>
+</html>

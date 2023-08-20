@@ -1,0 +1,78 @@
+<html>
+        <head>
+            <meta charset="utf-8">
+
+            <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Pattaya&family=Oswald&display=swap" rel="stylesheet">
+
+            <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+            <link rel="stylesheet" type="text/css" href="{{ url_for('au.static', filename='Aboutus.css') }}">
+            <link rel="stylesheet" type="text/css" href="{{ url_for('au.static', filename='Navbar.css') }}">
+
+        </head>
+        <body>
+
+        <div class="nbar">
+            <a href="/homepage">Home</a>
+            <a href="/readCards">Events</a>
+            <a href="/aboutus">About us</a>
+            <a href="/contact">Contact us</a>
+            <a href="/login">Login</a>
+            <a href="/logout">Logout</a>
+            <a class = "user" style = "color: #B31312; float: right"><img src = "static/user.png">{{Eusername}}</a>
+        </div>
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active page1">
+                <h1 class = "heading1">Beyond Expectations, <br><span class = "h1-span">Every Step of the Way.</span></h1>
+              </div>
+
+              <div class="carousel-item page2">
+                <h1 class = "heading2">We take care that <br><span class = "h2-span">Glimpses</span><br>last forever</h1>
+              </div>
+
+              <div class="carousel-item page3">
+                <h1 class = "heading3">Elevate Your <br><span class = "h3-span">Celebrations</span><br>with Us.</h1>
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        <!-- <div class="slider-frame">
+            <div class="slide-images">
+                    <div class="img-container">
+                        <img src="https://img.freepik.com/free-photo/ritual-with-coconut-leaves-during-traditional-hindu-wedding-ceremony_8353-8909.jpg?w=740&t=st=1690900768~exp=1690901368~hmac=23df87b54836f3bd1442d8aeed04d6e20083087983814cd150cf8c3bcdd775ca">
+                    </div>
+                    <div class="img-container">
+                        <img src="https://img.freepik.com/free-vector/flat-golden-circle-balloons-birthday-background_52683-34659.jpg?w=740&t=st=1690899755~exp=1690900355~hmac=50363c61b7f292b08433b0bdcc004bb01973d06a73238d0e5824e74399776f18">
+                    </div>
+                    <div class="img-container">
+                        <img src="https://img.freepik.com/free-photo/abstract-blur-shopping-mall_1203-8558.jpg?w=740&t=st=1690899804~exp=1690900404~hmac=f8d6237be967356bb1397852fb8d95ab50e786e121df80985c53a225bd77c40c">
+                    </div>
+                    <div class="img-container">
+                        <img src="https://img.freepik.com/free-photo/decorated-wedding-hall-with-candles-round-tables-centerpieces_8353-10057.jpg?w=740&t=st=1690900838~exp=1690901438~hmac=8f7c3e4c360191386025a0c3f7156d2540387593fc5d2e4018257957c4fd2612">
+                    </div>
+            </div>
+        </div> -->
+
+        </body>
+    </html>

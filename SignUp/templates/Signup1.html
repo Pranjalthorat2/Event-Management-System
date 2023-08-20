@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Login Page </title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('su.static', filename='Signup.css') }}">
+
+</head>
+<body>
+    <center> <h1 class="code-heading">Sign Up</h1> </center>
+    <form action = "/updateLogin" method="post">
+        <div class="container">
+            <label>Username : </label>
+            <input type="text" placeholder="Enter Username" name="username" required>
+            <label>Password : </label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <button type="submit">Signup</button>
+            <button onclick = "location.href = '/login'">Login</button>
+        </div>
+    </form>
+</body>
+</html>

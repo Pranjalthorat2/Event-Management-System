@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Teko&display=swap" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Noto+Serif&family=Roboto&family=Secular+One&family=Lobster&family=Sriracha&family=Pattaya&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('cu.static', filename='ContactUs.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('cu.static', filename='Navbar.css') }}">
+
+
+</head>
+<body>
+
+    <div class="nbar">
+        <a href="/homepage">Home</a>
+        <a href="/readCards">Events</a>
+        <a href="/aboutus">About us</a>
+        <a href="/contact">Contact us</a>
+        <a href="/login">Login</a>
+        <a href="/logout">Logout</a>
+        <a class = "user" style = "color: #B31312; float: right"><img src = "static/user.png">{{Eusername}}</a>
+    </div>
+
+     <h1>Get in Touch</h1>
+     <div class = "outer-div">
+         <div class="contact">
+             <h2>ADDRESS</h2>
+             <p>5th Floor, Plot No.18, 145 Railway Station Rd, Bright Complex, Mumbai</p>
+             <p><i class="fa-solid fa-phone-flip"></i>555 521 321</p>
+             <p><i class="fa-solid fa-mobile-retro"></i>9876543210</p>
+             <p><i class="fa-regular fa-envelope"></i>chetan@gmail.com</p>
+
+             <h3>Follow Us on</h3>
+             <div class="follow">
+                 <i class="fa-brands fa-instagram"></i>
+                 <i class="fa-brands fa-facebook"></i>
+                 <i class="fa-brands fa-linkedin"></i>
+                 <i class="fa-brands fa-twitter"></i>
+             </div>
+         </div>
+
+         <div class="note">
+             <h2>SEND US A NOTE</h2>
+             <input type="text" name="" placeholder="Enter Username">
+             <input type="email" name="" placrholder=" " placeholder="Email">
+
+             <textarea name = "name" placeholder="Tell us more about need........."></textarea><br>
+             <input class = "msg" type="submit" name="" value="Send Message">
+         </div>
+
+     </div>
+</body>
+</html>

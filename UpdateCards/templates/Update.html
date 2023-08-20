@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('uc.static', filename='Update.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('uc.static', filename='Navbar.css') }}">
+
+</head>
+
+<body>
+
+    <h1 >Update Here!!!!!</h1>
+
+    <form action = "/updateCards/{{Uid}}" method="post">
+        <label>Update Event name:</label>
+        <input type="text" name="Ename" required>
+
+        <label>Update Location:</label>
+        <input type="text" name="location" required>
+
+        <label>Update Date:</label>
+        <input type = "text" name="date" required>
+
+        <label>Update Time:</label>
+        <input type = "text" name="time" required>
+
+        <br>
+        <button type="Update">Update</button>
+    </form>
+
+</body>
+</html>

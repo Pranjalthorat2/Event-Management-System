@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Registration</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Pattaya&family=Oswald&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="static/Navbar.css">
+  <link rel="stylesheet" href="static/CreateEvent.css">
+</head>
+<body>
+
+  <div class="nbar">
+        <a href="/HomePage">Home</a>
+        <a href="/readCards">Events</a>
+        <a href="/Slider">About us</a>
+        <a href="/ContactUs">Contact us</a>
+        <a href="/Login">Login</a>
+        <a href="/Logout">Logout</a>
+    </div>
+
+  <div class="container">
+    <h1>Customer Event Registration</h1>
+    <form action = "/createCard" method="post">
+      <label for="eventname">Event Name:</label>
+      <input type="text" id="eventname" name="Ename" required>
+
+      <label for="Location">Location:</label>
+      <input type="location" id="location" name="location" required>
+
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="time">Time:</label>
+      <input type="time" id="time" name="time" required>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>

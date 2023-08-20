@@ -1,0 +1,39 @@
+body{
+    margin: 8px;
+}
+
+.main-div{
+    background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/10/best-background-for-website-07-920x518.jpg");
+    height: 700px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px
+}
+
+.heading{
+    text-align: center;
+    font-family: Bree serif;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.para1{
+    color: #64CCC5;
+    font-size: 60px;
+    font-family: Pattaya;
+}
+
+.para2{
+    color: #FFBDF7;
+    font-size: 25px;
+    font-family: Bree serif;
+}
+
+img{
+    height: 23px;
+    width: 23px;
+    margin-right: 10px;
+    margin-bottom: -5px;
+}
+
